@@ -116,8 +116,8 @@ hr.header-main-divider {
 
 main {
     columns: 3 220px;
-    column-gap: 14px;
-    margin: 0px 5%;
+    column-gap: 15px;
+    margin: 0px 100px;
 }
 
 div.card {
@@ -126,7 +126,7 @@ div.card {
     border-radius: 10px;
     break-inside: avoid;
     padding: 5%;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 div.card img {
     object-fit: fill;
@@ -277,20 +277,11 @@ span.dark
     }
 
     main {
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    div.column {
-        width: 100%;
-    }
-
-    div.card {
-        margin-bottom: 15px;
+        margin: 0px auto;
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 770px) {
     main {
         width: 90vw;
     }
