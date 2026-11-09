@@ -26,7 +26,7 @@ async function fetchItem(directory) {
     return result;
 }
 
-async function constructCard(message_obj, image_dir, curr_folder) {
+function constructCard(message_obj, image_dir, curr_folder) {
     const card = document.createElement("div");
     card.classList.add("card");
     card.classList.add("card-light");
