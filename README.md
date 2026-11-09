@@ -1,57 +1,25 @@
-# Thanks again mentors!
+# Mentor appreciation website
 
-Below you see the readme as what it was before 26-6-2026. If you still want to submit a nice message you can do so before Saturday 27th 15:00!
+This website was born at the end of the 2025/2026 year as a way of thanking the mentors for their hard work, and this year it's up again! Do you want to thank the mentors for their hard work or do you have something you want off your chest regarding mentors? You can do it right here!
+The idea is that as many people as possible upload a nice message and optionally a picture to this repo, which builds a website that loads all of your messages and pictures, so that the mentors can read how much they've meant to you and us. The more people write a nice message, the more kind messages the mentors get to read, thus making it a better gift.
 
+**Important to know!** Your message will be publicly available on this website, and the mentors website will pull some messages from this website to display over there, so your message might appear over there too!
 
-# IF YOU ARE A CS/AI MENTOR, PLEASE CLOSE THIS WEBPAGE IMMEDIATELY! YOU'LL SEE WHY SOON ENOUGH.
+## Okay, cool! But how?
 
-**If you are not a CS/AI mentor for 2025/2026, please keep on reading**  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
+You can fill in this form to add your message: !
 
-# For non-mentors
+## FAQ
 
-Given you are still reading this, you are probably not a CS or AI mentor at this moment (go away Gonçalo and Vitor, seriously ;). As I have had a blast this year mostly thanks to the mentor program, I decided it's time to give them something back for their hard work. And you can help out too!
+See if your burning question is already answered over here.
 
-## The concept
+### Can I make a pull request instead of filling in the form?
 
-The idea is that as many people as possible upload a nice message and optionally a picture to this repo, which builds a website that loads all of your messages and pictures, so that the mentors can read how much they've meant to you and us. The more people write a nice message, the more kind messages the mentors get to read, thus making it a better gift. So if you know other people who've enjoyed the mentor program events, please send them this repo (or add them to the group chat: Sorry, this group chat is now closed!), so they can also write their message!
+No, a pull request will be ignored.
 
-**IMPORTANT!** 
-
-Do **NOT** share this repo in groupchats with mentors or with the mentors directly! This website will be revealed to them at the final mentor event of the year (the barbeque), and we'd like to keep it a surprise until then!
-
-## Deadline (IMPORTANT!)
-
-The barbeque event is on friday the 26th (that's very soon!), and to make sure I can add everything to the repo in time, the deadline for making a pull request/filling in the form is going to be friday the 26th at 15:00! Make sure you submit a nice message before then :)
-
-Since the barbecue has been cancelled, the website will be sent in the mentors 25/26 community general chat between 15:30 and 16:00. The deadline above stays the same!
-
-# Uploading your message for the mentors
-
-For your message to be added, you will need to make a pull request, which is a way to add code and files to a repository like this. How you do this and what exactly you need to upload for the webpage to include your message, you can find at [`main/Tutorial/How_to_upload_your_own_message.md`](./Tutorial/How_to_upload_your_own_message.md). Have you already made pull requests before and do you just want a quick explanation of what you should upload to have your message appear on the webpage? You can find this info at [`main/Tutorial/Making_your_message.md`](./Tutorial/Making_your_message.md).
-
-## I can't/don't want to make a pull request
-
-You can also submit your message through this form: [https://my.liberaforms.org/mentors-2526-form](https://my.liberaforms.org/mentors-2526-form).
 
 ---
 
-**Special thanks to Mark, Martyna, Kevin and Aryan for helping out in the initial stage of the project! And of course...**
+**Special thanks to Mark, Martyna, Kevin and Aryan (2025/2026) for helping out in the initial stage of the project! And of course...**
 
-**THANK YOU 🫵 for contributing! :) The more people add their message for the mentors to this webpage, the better of a gift it becomes!**
+**THANK YOU 🫵 for contributing!**
