@@ -50,8 +50,6 @@ async function loadContentToWebpage() {
     const content_folder_structure = await fetchItem(dir + "content_dir.json");
     const folder_arr = content_folder_structure.folders;
 
-    let column_lengths = [0, 0, 0];
-
     for (let curr_folder = 0; curr_folder < folder_arr.length; curr_folder++) {
         const message_obj = await fetchItem(dir + folder_arr[curr_folder] + "/message.json");
         let message_contains_scripts = await checkForScripts(message_obj);
@@ -68,14 +66,7 @@ async function loadContentToWebpage() {
                         </div>
                     </div>`;
 
-                const smallest_col_size = Math.min(column_lengths[0], column_lengths[1], column_lengths[2]);
-                let column_num = 1;
-                if (smallest_col_size === column_lengths[1]) {
-                    column_num = 2;
-                } else if (smallest_col_size === column_lengths[2]) {
-                    column_num = 3;
-                }
-                document.getElementById("column" + column_num).innerHTML += card;
+                document.getElementById("message-container").innerHTML += card;
             } else if (message_obj.uses_styling == true && message_contains_scripts) {
                 console.error("Message contained illegal items. Script didn't load to prevent script injection.");
             } else if (message_obj.uses_styling == false) {
@@ -118,19 +109,9 @@ async function loadContentToWebpage() {
                 card_message_message.innerText = message_obj.message;
                 card_message_container.appendChild(card_message_message);
 
-
-                const smallest_col_size = Math.min(column_lengths[0], column_lengths[1], column_lengths[2]);
-                let column_num = 1;
-                if (smallest_col_size === column_lengths[1]) {
-                    column_num = 2;
-                } else if (smallest_col_size === column_lengths[2]) {
-                    column_num = 3;
-                }
-                document.getElementById("column" + column_num).appendChild(card);
+                document.getElementById("message-container").appendChild(card);
             }
-    
-            const column = Number(document.getElementById(curr_folder).parentElement.id.replace("column", "")) - 1;
-            column_lengths[column] += document.getElementById(curr_folder).offsetHeight;
+
         } else {
             console.error(`Couldn't load ${dir + folder_arr[curr_folder] + "/message.json"}, file was not found.`);
         }

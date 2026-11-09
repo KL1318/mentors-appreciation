@@ -115,21 +115,16 @@ hr.header-main-divider {
 }
 
 main {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 75vw;
-    margin: 0% auto;
-}
-
-div.column {
-    width: 32%;
+    columns: 3 220px;
+    column-gap: 14px;
+    margin: 0px 5%;
 }
 
 div.card {
     display: flex;
     flex-direction: column;
     border-radius: 10px;
+    break-inside: avoid;
     padding: 5%;
     margin-bottom: 20px;
 }
