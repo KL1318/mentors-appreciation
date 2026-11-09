@@ -15,7 +15,7 @@ See if your burning question is already answered over here.
 
 ### Can I make a pull request instead of filling in the form?
 
-No, a pull request will be ignored.
+No, a pull request will be ignored. This is to reduce maintenance cost of this repo. If you have a request for the website itself, please send me a message!
 
 
 ---
