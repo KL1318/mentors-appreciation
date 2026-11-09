@@ -1,26 +1,14 @@
 @font-face {
-    font-family: "Avenir medium";
-    src: url(./fonts/Avenir-Medium.otf);
+    font-family: "Nunito Sans";
+    src: url(./fonts/NunitoSans-Regular.ttf);
 }
 @font-face {
-    font-family: "Avenir medium italic";
-    src: url(./fonts/Avenir-MediumOblique.otf);
+    font-family: "Nunito Sans italic";
+    src: url(./fonts/NunitoSans-Italic.ttf);
 }
 @font-face {
-    font-family: "Avenir heavy";
-    src: url(./fonts/Avenir-Heavy.otf);
-}
-@font-face {
-    font-family: "Avenir heavy italic";
-    src: url(./fonts/Avenir-HeavyOblique.otf);
-}
-@font-face {
-    font-family: "Avenir light";
-    src: url(./fonts/Avenir-Light.otf);
-}
-@font-face {
-    font-family: "Avenir light italic";
-    src: url(./fonts/Avenir-LightOblique.otf);
+    font-family: "Nunito Sans bold";
+    src: url(./fonts/NunitoSans-Bold.ttf);
 }
 
 :root {
@@ -38,25 +26,26 @@
 
     /* If you can come up with a better color scheme, be my guest! I suck at color theory, so I just kinda guessed until it looked okay. */
 
-    --font-base: ;
-    --font-bold: ;
+    --font-base: "Nunito Sans";
+    --font-italic: "Nunito Sans italic";
+    --font-bold: "Nunito Sans bold";
 }
 
 
 /* Text styling */
 h1 {
-    font-family: "Avenir heavy", "sans-serif";
+    font-family: var(--font-bold), "sans-serif";
     font-size: 3em;
 }
 h2.card-title {
-    font-family: "Avenir heavy", "sans-serif";
+    font-family: var(--font-bold), "sans-serif";
     font-size: 1.2em;
 }
 p {
-    font-family: "Avenir medium";
+    font-family: var(--font-base), sans-serif;
 }
 span.img-close-btn {
-    font-family: "Avenir heavy";
+    font-family: var(--font-bold), sans-serif;
     font-size: 1.6em;
 }
 
@@ -65,14 +54,14 @@ h4,
 h5,
 h6
 {
-    font-family: "Avenir heavy";
+    font-family: var(--font-bold), sans-serif;
 }
 
 p,
 span,
 div
 {
-    font-family: "Avenir medium";
+    font-family: var(--font-base), sans-serif;
 }
 
 
