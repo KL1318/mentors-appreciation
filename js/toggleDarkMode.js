@@ -35,6 +35,7 @@ function setDarkMode() {
         item.classList.remove("card-light");
         item.classList.add("card-dark");
     });
+    document.getElementById("bottom-logo").src = "./non_msg_images/Kevyn.png";
     setCookie("darkModeToggle", "dark", 30);
 }
 
@@ -51,6 +52,7 @@ function setLightMode() {
         item.classList.remove("card-dark");
         item.classList.add("card-light");
     });
+    document.getElementById("bottom-logo").src = "./non_msg_images/Kevyn_dark.png";
     setCookie("darkModeToggle", "light", 30);
 }
 
