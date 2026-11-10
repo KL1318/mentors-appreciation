@@ -15,7 +15,7 @@ See if your burning question is already answered over here.
 
 ### Can I use (inline) CSS or JavaScript in my message?
 
-No. This is so no aattempts to inject malicious code will be made. Everything you submit in the form will be handled as a string, and will not be checked for CSS or JavaScript. This also means that if you enter &lt;marquee&gt;mentors&lt;/marquee&gt; for example, this will fully show up as text, and not as a marquee.
+No. This is so no aattempts to inject malicious code will be made. Everything you submit in the form will be handled as a string, and will not be checked for CSS or JavaScript. This also means that if you enter &lt;marquee&gt;mentors&lt;/marquee&gt; for example, this will fully show up as text, and not as a marquee. Escape characters are displayed correctly, so for example newlines (\n) and tabs (\t) are allowed.
 
 ### Can I make a pull request instead of filling in the form?
 

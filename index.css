@@ -59,7 +59,8 @@ h6
 
 p,
 span,
-div
+div,
+img
 {
     font-family: var(--font-base), sans-serif;
 }
